@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 65px 15px;
+}
+
+.logo img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end; /* Alinha os itens à direita */
+}
+
+nav a {
+  margin-left: 20px; /* Adiciona espaçamento entre os itens */
+}
+
+
+nav a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+  font-weight: normal;
+  width: 100%;
+  max-width: 490px;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 20px 0;
+}
+
+button {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background: #69B99D;
+  border: 0;
+  padding: 14px 32px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #3cb792;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer a {
+  font-weight: bold;
+  color: black;
+}
+
+.header-image img {
+  float: right;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.jump-rope-image {
+  float: right;
+  max-width: 100%;
+  margin-left: 20px;
+}
+.whatsapp-icon {
+  width: 24px;
+  margin-right: 5px; /* Adiciona uma pequena margem à direita do ícone */
+}
+
